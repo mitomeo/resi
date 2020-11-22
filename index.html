@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="action.js"></script>
+        <title>Darwin</title>
+    </head>
+    <body>
+        <img src='Darwin_City.jpg' width=146 height=109 alt='Darwin City' style='float:left'>
+        <br>
+        <table>
+            <tr class='maintable'>
+                <td><b><a href="index.html">About Darwin</a></b></td>
+                <td><a href="study.html">Why Study in Darwin</a></td>
+                <td><a href="df.html">Darwin Festival</a></td>
+                <td><a href="dsaf.html">Darwin Street Art Festival</a></td>
+                <td><a href="contact.html">Contact Me</a></td>
+            </tr>
+        </table>
+
+        <br><br><br>
+        <button type="button" class="btn btn-info"><a class="nocol" href="contact.html">Previous</a></button>
+        <button type="button" class="btn btn-primary"><a class="nocol" href="study.html">Next</a></button>
+        <br><br>
+                
+        <div class="alert alert-danger" role="alert">
+        COVID-19 UPDATE:<br>
+        Read the latest update regarding the pandemic situation <a href="https://coronavirus.nt.gov.au/">HERE</a>.
+        </div>
+        
+        <p>The capital of the Northern Territory and the hub of northern Australia, Darwin has a distinctive Top End vibe thanks to its young, eclectic and cosmopolitan population (which is around 132,000), its somewhat turbulent history and its geographical setting. With its proximity to Asia, Darwin has long held aspirations of becoming a consequential city of international trade, and with the recent rail link to southern capitals this goal may well be realised.
+        </p>
+        
+        <p style='text-align:center'><img src='darwinmap.jpg' width=25% height=auto alt='Darwin Map'></p>
+        
+        <h6>History</h6>
+        <p>While the future looks bright, there are lessons and legacies from the past. Darwin has endured total makeovers several times since its settlement in 1861 thanks to more than a few destructive cyclones and a barrage of Japanese bombs during WWII. Rebuilt and revitalised over subsequent decades, Darwin has developed into a vibrant multicultural centre that remains intimate because of its small size, as well as retaining a frontier atmosphere because of its indisputable remoteness from the majority of Australia’s population.
+        </p>
+        
+        <h6>A Global City</h6>
+        <p>Darwin’s pre-eminent asset is its proximity to iconic Australia, a less-trampled land of endless horizons, fascinating indigenous culture, postcard landforms and amazing wildlife. Not surprisingly, Darwin is a major stop for travellers, with a constant flow of them coming and going from Asia, or making their way around Australia. So hang around, take in the vibe and explore the backyard, the famous national parks of Kakadu and Litchfield with their rugged landscapes, idyllic waterfalls and unique wildlife, and discover the people, culture and art of the nearby Tiwi Islands and Arnhem Land.
+        </p>
+    
+    <br>
+    <p style='text-align:center; text-decoration: underline;'>Motivational Quote:</p>
+    <b><p id='quotedisplay' style='text-align:center;'></p></b>
+    <button id='alignment' onclick='newquote()'>Get Quote</button>
+    
+    <br><p id="timeid" style="text-align:center;"></p>
+    <script>dtime();</script>
+    
+    <span style='text-decoration: underline;'>Change Background Colour:</span><br>
+    <button id="red" onclick='changecol("red")'>Red</button>
+    <button id="pink" onclick='changecol("pink")'>Pink</button>
+    <button id="orange" onclick='changecol("orange")'>Orange</button>
+    <button id="yellow" onclick='changecol("yellow")'>Yellow</button>
+    <button id="green" onclick='changecol("green")'>Green</button>
+    <button id="blue" onclick='changecol("blue")'>Blue</button>
+    <button id="purple" onclick='changecol("purple")'>Purple</button>
+    <button id="brown" onclick='changecol("brown")'>Brown</button>
+    <button id="grey" onclick='changecol("grey")'>Grey</button>
+    <button id="none" onclick='changecol("none")'>None</button>
+    
+    </body>
+</html>

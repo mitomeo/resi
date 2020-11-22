@@ -1,0 +1,42 @@
+.maintable
+{
+    border:1px solid black;
+    border-collapse:collapse;
+
+}
+
+td
+{
+    border:1px solid black;
+    padding:5px;
+    text-align: center;
+    width: 300px;
+}
+
+.nocol
+{
+    color: inherit;
+}
+
+h6
+{
+    font-size: 20px;
+    font-family: 'liberation serif', 'times new roman';
+    font-weight: bolder;
+}
+
+#alignment
+{
+    display: block;
+    width: 125px;
+    margin: 0 auto;
+    border-radius: 150px;
+}
+
+body
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
